@@ -1,8 +1,27 @@
 .hero{
     min-height: 60vh;
     background: url(../../assests/img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .profile-img{
     max-width: 400px;
     margin-left: auto;
+   
+    
 }
+.intro{
+    color:rgb(227, 238, 241);
+    margin-top: 80px;
+    margin-left: 34%;
+}
+.intro span{
+    color:rgb(96, 155, 7) ;
+}
+
+.para {
+
+    margin-left: 34%;
+    color: black;
+} 

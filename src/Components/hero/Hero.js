@@ -12,7 +12,7 @@ export const Hero = () => {
 
             <Container>
                 <Row>
-                    <Col md="6" className="order-md-2">
+                    <Col md="6" className="order-md-2 mt-5">
                        <div className="profile-img">
                     <img src={mypic} width="100%" alt="my" />
                     </div>
@@ -21,8 +21,9 @@ export const Hero = () => {
 
                     <Col md="6" className=" order-md-1">
                     <div class="info mt-5 pt-5">
-                    <h1>Hi I am Rajit</h1>
-                    <p> 
+                    <h1 className="intro fw-bolder">Hi I am <span>Rajit Shyaula</span></h1>
+
+                    <p className="para fw-bold"> 
                         I am fullstack developer
                      </p>
                      </div>

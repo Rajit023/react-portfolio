@@ -10,7 +10,7 @@ export const TopNavbar = () => {
     <Navbar.Brand href="#home">Rajit</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
-      <Nav className="ms-auto fs-2">
+      <Nav className="ms-auto fs-2 fw-bolder">
         <Nav.Link href="#home">Skill</Nav.Link>
         <Nav.Link href="#link">Project</Nav.Link>
         <Nav.Link href="#home">About me</Nav.Link>
