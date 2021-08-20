@@ -1,0 +1,8 @@
+.hero{
+    min-height: 60vh;
+    background: url(../../assests/img/bg.jpg);
+}
+.profile-img{
+    max-width: 400px;
+    margin-left: auto;
+}
