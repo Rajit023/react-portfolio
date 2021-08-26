@@ -4,11 +4,13 @@ import { TopNavbar } from '../header/Navbar'
 import './hero.style.css'
 
 import mypic from '../../assests/img/p.png'
+import { MainLayout } from '../layout/MainLayout'
 
 export const Hero = () => {
     return (
-        <div className="hero">
-            <TopNavbar />
+        // <MainLayout>
+        <div className="hero pt-1">
+            {/* <TopNavbar /> */}
 
             <Container>
                 <Row>
@@ -32,6 +34,7 @@ export const Hero = () => {
                 </Row>
             </Container>
         </div>
+        // </MainLayout>
     );
     
 };
